@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191616"
+    tools:context=".MenuProducto">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="4dp"
+        android:onClick="inicio"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/inicio" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="Producto 1"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="328dp"
+        android:layout_height="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/producto3"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Pizza con ingrediente 1 y una pizca de ingrediente 2"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="179dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="$28.000"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#F22E2D2D"
+        android:text="-"
+        android:textColor="#EDDFDF"
+        android:textSize="15sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#F21E1D1D"
+        android:text="Comprar"
+        android:textColor="#FFC107"
+        android:textSize="15sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#F22E2D2D"
+        android:text="1"
+        android:textColor="#EDDFDF"
+        android:textSize="15sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#F22E2D2D"
+        android:text="+"
+        android:textColor="#EDDFDF"
+        android:textSize="15sp"
+        app:cornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
