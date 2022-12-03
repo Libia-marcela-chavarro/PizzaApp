@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">jestysPizza</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="todo">TODO</string>
+    <string name="ahora_pedir_a_domicilio_es_facil_mejoramos_para_seguir_entregandote_nuestro_sabor_unico">Ahora pedir a domicilio es facil. Mejoramos para seguir entregandote nuestro sabor unico</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="email">Email:</string>
+    <string name="contrasenia">Contraseña:</string>
+    <string name="Inicio" />
+    <string name="inicio">inicio</string>
+    <string name="nombre">Nombre:</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="ID">ID:</string>
+    <string name="Direccion">Direccion:</string>
+    <string name="Descripcion">Descripcion:</string>
+    <string name="Registrar" />
+    <string name="pedidos">Pedidos</string>
+    <string name="mis_pedidos">Mis pedidos</string>
+</resources>
